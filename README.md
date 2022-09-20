@@ -19,9 +19,11 @@ The single layer perceptron is imspired by biological neuron and simulates it.
 
 Given the following equations,
 1. A linear model:
+
 $$ f(x) = w^{T}x + b $$
 
 2. The unit step function (serving as activation function):
+
 $$ U(z)=   \left\{
 \begin{array}{ll}
       1 & if z \geq \theta \\
@@ -30,9 +32,11 @@ $$ U(z)=   \left\{
 \right.  $$
 
 3. The resulting approximation of the output combining the above equations.
+
 $$ \hat{y} = U(f(x)) = U(w^{T}x + b) $$
 
 4. The Perceptron update rule, where $\alpha$ is the learning rate. Note the calculation below is done as vectors for optimization:
+
 $$ w = w + (\alpha * \Sigma ({y}- \hat{y})) * x $$
 $$ b = b + (\alpha * \Sigma ({y}- \hat{y})) $$
 
