@@ -15,7 +15,7 @@ The single layer perceptron is imspired by biological neuron and simulates it.
   src="neuron.png"
   alt="Alt text"
   title="Optional title"
-  style="display: block; align: center; margin: 0 auto; max-width: 180px">
+  style="display: block; align: center; margin: 0 auto; max-width: 150px">
 
 Given the following equations,
 1. A linear model:
